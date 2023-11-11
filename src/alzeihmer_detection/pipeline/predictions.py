@@ -27,7 +27,7 @@ class PredictionPipeline:
         elif result[0] == 1:
             prediction = 'Moderate Demented'
             return [{"image": prediction}]
-        elif result[0] == 3:
+        elif result[0] == 2:
             prediction = 'Non Demented'
             return [{"image": prediction}]
         else:
