@@ -3,7 +3,7 @@ artifacts_root: artifacts
 
 data_ingestion:
   root_dir: artifacts/data_ingestion
-  source_url: https://drive.google.com/file/d/1CAr0aO-6rcIDEWp1itekpgxBho0WP5c4/view?usp=sharing
+  source_url: https://drive.google.com/file/d/1BkbjMVTpv-1OAlHOu-t2nuljrA753WPj/view?usp=drive_link
   local_data_file: artifacts/data_ingestion/alzeihmer_dataset.zip
   unzip_dir: artifacts/data_ingestion
 
@@ -20,3 +20,4 @@ prepare_callbacks:
 training:
   root_dir: artifacts/training
   trained_model_path: artifacts/training/model.h5
+
